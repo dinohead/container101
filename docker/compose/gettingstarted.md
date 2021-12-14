@@ -38,7 +38,7 @@ Define the application dependencies.
   vi app.py
   ```
 
-   ```python
+  ```python
    import time
 
    import redis
@@ -62,7 +62,7 @@ Define the application dependencies.
     def hello():
        count = get_hit_count()
        return 'Hello World! I have been seen {} times.\n'.format(count)
-    ```
+  ```
     
  In this example, `redis` is the hostname of the redis container on the application's network. We use the default port for Redis, `6379`.
 
